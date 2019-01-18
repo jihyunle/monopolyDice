@@ -47,35 +47,5 @@ public class monopolyDice {
         keyboard.close();
         System.exit(0);
 
-
-//        while(playAgain.toLowerCase() == "y"){
-//            diceA = 1 + (rnd.nextInt(6));
-//            diceB = 1 + (rnd.nextInt(6));
-//            System.out.println("User rolls " + diceA + " & " + diceB);
-//
-//            if(diceA == diceB){
-//                System.out.println("DOUBLES!");
-//                doubleRollCount++;
-//
-//                if(doubleRollCount < 3){
-//                    System.out.println("Move " + (diceA + diceB) + " spaces and roll again getting...");
-//                    //continue;
-//                }else
-//                    System.out.println("GO TO JAIL ---> bye");
-//
-//            }else
-//                System.out.println("Move " + (diceA + diceB) + " spaces and stop");
-//                break;
-//        }
-
-//        System.out.println();
-//        playAgain = "";
-//        System.out.println("Would you like to play another game at this time?: Y or N");
-//        playAgain = keyboard.nextLine();
-
-
-
-
-
     }
 }
